@@ -17,8 +17,11 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 $ sudo apt-get update
 
-$ make sure to install docker used command this 
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+make sure to install docker used command this 
+
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+
 (created worker account)
 
 $ wget https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.10.23-d901d853.tar.gz
